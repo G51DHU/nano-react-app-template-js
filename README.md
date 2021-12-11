@@ -1,6 +1,6 @@
 # Nano React App Default Javascript Template
 
-The default template project for [nano-react-app](https://github.com/nano-react-app/nano-react-app).
+The default template project for [nano-react-app](https://github.com/G51DHU/nano-react-app).
 
 - `npm start` — This will spawn a development server with a default port of `3000`.
 - `npm run build` — This will output a production build in the `dist` directory.
