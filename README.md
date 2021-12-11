@@ -1,9 +1,18 @@
 # Nano React App Default Javascript Template
+The default template project for [nano-react-app](https://github.com/G51DHU/template-js).
 
-The default template project for [nano-react-app](https://github.com/G51DHU/nano-react-app).
+---
 
-- `npm start` — This will spawn a development server with a default port of `3000`.
-- `npm run build` — This will output a production build in the `dist` directory.
+>**Note:**
+
+  - ".js" files wont be parsed as JSX, so make sure to rename  JS files containing JSX syntax to end with ".jsx" instead of ".js".
+---
+
+## NPM
+
+  - `npm start` — This will spawn a development server with a default port of `3000`.
+
+  - `npm run build` — This will output a production build in the `dist` directory.
 
 ## Custom port
 
@@ -66,5 +75,6 @@ When the application starts this is the first page that is loaded. This file has
 
 ## App.jsx
 
-This file is like the gateway to the rest of the project. It encapsulates everything else you want and need, like other components.
-Unlike the normal "```npm create-react-app```", With "```npm nano-react-app```" the "index.jsx" and the "app.jsx" have been combined, so that ```ReactDOM.render``` is now inside of ```App.jsx``` instead of a seperate ```index.jsx``` file.
+This file is like the gateway to the rest of the project. It encapsulates everything else you want and need, like other components. 
+
+Unlike "`npm create-react-app`", with "`npm nano-react-app`" the "index.jsx" and the "app.jsx" have been combined, so that `ReactDOM.render` is now inside of `App.jsx` instead of a seperate `index.jsx` file.
