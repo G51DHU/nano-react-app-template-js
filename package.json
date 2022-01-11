@@ -5,7 +5,9 @@
     "license": "MIT",
     "scripts": {
         "start": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "wbuild" : "vite build --watch",
+        "preview" : "vite preview --host --port 3000"
     },
     "dependencies": {
         "@vitejs/plugin-react": "^1.1.1",
@@ -15,6 +17,7 @@
     "devDependencies": {
         "babel-preset-nano-react-app": "^0.1.0",
         "vite": "^2.6.7"
+        
     },
     "babel": {
         "presets": [
