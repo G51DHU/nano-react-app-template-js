@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom";
 
-function App(){
+function Index(){
   return(
     <>
       <h1>Welcome to React Vite Micro App!</h1>
@@ -9,5 +9,5 @@ function App(){
   );
 }
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<Index />, document.getElementById("root"));
 
